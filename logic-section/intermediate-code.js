@@ -14,6 +14,7 @@ function numberToAccountingString(number) {
     }
 }
 
+console.log('===================');
 console.log('Intermediate code logs');
 console.log(numberToAccountingString(undefined))
 console.log(numberToAccountingString(0))
