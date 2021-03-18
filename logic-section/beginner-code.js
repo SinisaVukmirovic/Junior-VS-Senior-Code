@@ -24,9 +24,8 @@ function toAccounting(n) {
   }
 }
 
-  
+console.log('Beginner code logs');
 // console.log(toAccounting(undefined));
 console.log(toAccounting(0));
 console.log(toAccounting(10));
 console.log(toAccounting(-5));
-
