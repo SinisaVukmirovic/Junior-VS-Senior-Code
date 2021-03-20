@@ -31,7 +31,7 @@ function validateUsername(username) {
   return errors;
 }
 
-// repeating ourselves with checks for username and password in above and below funcs
+// repeating ourselves with validation checks for username and password in above and below funcs
 
 function validatePassword(password) {
   const errors = [];
@@ -46,6 +46,8 @@ const user = {
   username: 'WDS',
   password: 'password'
 }
+
+// also, validate checks should only return booleans TRUE or FALSE, we shouldnot know what type of value to expect to know if it is correct or not
 
 const errors = validateUser(user);
 if (errors.length > 0) {
