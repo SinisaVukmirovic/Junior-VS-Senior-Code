@@ -7,7 +7,7 @@ const readlineInterface = readline.createInterface({
   output: process.stdout
 })
 
-// getting rid of all the nested code
+// getting rid of all the nested code, callback hell
 // creating abstractions of askQuestion function and moving it into a separate func
 // using async await 
 async function main() {
